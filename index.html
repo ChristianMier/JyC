@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wedding invitation</title>
+    <link rel="stylesheet" href="css/styles.css">
+<!--    la línea de abajo es para poner un icono de la página en el browser-->
+<!--    <link rel=icon href="favicon.ico">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Libre+Franklin:ital,wght@1,100&family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!--portada-->
+    <div class="main-image">
+      <div class="main-text">
+        <h1 class="h1-main"> Julissa & Christian</h1>
+<!--        <h1 class="h1-main"> &</h1>-->
+<!--            <h1 class="h1-main"> Christian</h1>-->
+      </div>
+        <h1 class="clock">23/09/23 </h1>
+    </div>
+<!--cuanto falta-->
+    <div>
+<!--        <h2>“If I could just give up... If I could just, take the whole world's advice and move on and find someone else, that wouldn't be love! That would be some other disposable thing... that is not worth fighting for.”</h2>-->
+        <h3 style="font-family: 'Libre Franklin', sans-serif; margin: 20px">"You can ask the universe for signs all you want, but ultimately we'll only see what we want to see when we're ready to see it."</h3>
+<!--        <h2>signs all you want, but</h2>-->
+<!--        <h2>ultimately we'll only see what</h2>-->
+<!--        <h2>we want to see when we're ready</h2>-->
+<!--        <h2>to see it."</h2>-->
+        <h3 style="font-family: 'Libre Franklin', sans-serif;"> ―HIMYM</h3>
+        <img class="flor-left" src="images/flor.jpg">
+        <img class="flor-right" src="images/flor.jpg">
+        <div class="faltan">
+            <h2 style="font-size:20px; margin-top: 10px; margin-bottom: 10px;">Faltan</h2>
+            <h2 style="margin-top: 10px; margin-bottom: 10px;" id="demo"></h2>
+            <h2 style="font-size:20px; margin-top: 10px; margin-bottom: 10px;">para nuestra boda.</h2>
+        </div>
+<!--        <img class="flor-right" src="images/flor.jpg">-->
+    </div>
+    <div style="clear: both"></div>
+<!--Horarios-->
+    <div class="rosa">
+        <h1>Horarios</h1>
+        <div class="contenedor_horarios">
+        <div class="iglesia">
+            <h2>Ceremonia Religiosa</h2>
+            <img class="iglesia-img" src="images/iglesia.png">
+            <p>SAGRADO CORAZÓN DE JESÚS</p>
+            <p>7:00 pm</p>
+            <p>5 de Mayo, Centro</p>
+            <p>64000 Monterrey</p>
+            <p>N.L., Mexico</p>
+            <a class="btn" href="https://goo.gl/maps/MJ1eUpZdL4bg7hTr5">Mapa</a>
+        </div>
+        <br class="br_horarios">
+         <hr class="hr_horarios">
+        <br class="br_horarios">
+        <div class="iglesia">
+            <h2>Recepción</h2>
+                <img class="hotel-img" src="images/hotel2.png">
+                <p>HOTEL MS MILENIUM</p>
+                <p>8:30 pm</p>
+                <p>Ave Jose Vasconcelos 300 Ote</p>
+                <p>66260 San Pedro Garza Garcia</p>
+                <p>N.L., Mexico</p>
+                <a class="btn" href="https://goo.gl/maps/ZAKzEM1kA36fAHoj8">Mapa</a>
+        </div>
+        <div style="clear: both"></div>
+        </div>
+    </div>
+<!--codigo de etiqueta-->
+    <div class="blanco">
+        <h1>Código de Etiqueta</h1>
+        <h2>Formal</h2>
+        <img src="images/formal.png" style="height: 50px">
+    </div>
+<!--Mesa de regalos-->
+    <div class="rosa">
+        <h1>Mesa de Regalos</h1>
+        <div class="iglesia">
+            <h2>Cuenta Bancaria México</h2>
+            <p>1234231421413</p>
+            <p>BBVA</p>
+            <p>Christian Mier Escurra</p>
+        </div>
+        <hr>
+        <div class="iglesia">
+            <h2>Cuenta Bancaria Europa</h2>
+            <p>1234231421413</p>
+            <p>BBVA</p>
+            <p>Christian Mier Escurra</p>
+        </div>
+    </div>
+<!--GALERIA-->
+    <div class="blanco">
+        <h1>Galería</h1>
+        <div class="dropdown-gal">
+            <img src="images/Galeria/DKH_0499.jpg" alt="Paris1" width="10%" height="10%">
+            <div class="dropdown-content-gal">
+                <img class="img-grande" src="images/Galeria/DKH_0499.jpg" alt="Paris1">
+            </div>
+        </div>
+<!--        <img alt="" src="file:/images/Galeria/DKH_0499.jpg"-->
+<!--        style="height: 85px; width: 198px" id="imgClickAndChange" onclick="changeImage()"/>-->
+
+
+    </div>
+<!--ASISTENCIA-->
+    <div class="rosa">
+        <h1>Confirmación de Invitados</h1>
+        <form action="mailto:christianmier.e@gmail.com" method="post" enctype="text/plain">
+            <input class="nombre" type="text" name="yourName" value="Nombre">
+            <br>
+            <br>
+            <select class="asistencia" name="asistencia" id="asistencia">
+                <option value="Asistencia">Asistencia</option>
+                <option value="Si">Sí Asistiré</option>
+                <option value="No">No Asistiré</option>
+            </select>
+
+             <select class="asistencia" name="acompanantes" id="acompanantes">
+                <option value="acompanantes">Acompañantes</option>
+                <option value="0">0 Acompañantes</option>
+                <option value="1">1 Acompañantes</option>
+             </select>
+            <br>
+            <br>
+            <textarea class="nombre" name="yourMessage" rows="5">Mensaje para los novios</textarea>
+            <br>
+            <input type="submit" name="" value="Enviar">
+        </form>
+    </div>
+<!--Recomandaciones-->
+    <div class="Recomendaciones">
+        <h1>Recomendaciones</h1>
+        <div class="iglesia" style="background-color: #ADB9CA;">
+            <h2>Hospedaje</h2>
+            <h3>HOTEL MS MILENIUM</h3>
+            <p class="justificado">El hospedaje incluye descuento y transporte hotel-iglesia-hotel al recervar con el código:</p>
+            <h1>ASDLKN</h1>
+            <p>- Habitación Superior:   $1,969.5</p>
+            <p>- Habitación De Luxe:  $2,267.0</p>
+            <p class="justificado">*Precio adicional por persona (hasta 4 personas por cuarto): $300.0</p>
+            <p class="justificado">Para más información comunicarse con Alejandra Galena al:</p>
+            <p class="justificado">Teléfono: (81) 8368 6007 o (81) 8368 6067</p>
+            <p class="justificado">Correo: Alejandra.galeana@hotelesmilenium.com</p>
+        </div>
+        <hr>
+        <div class="iglesia" style="background-color: #ADB9CA;">
+            <h2>Recreaciones</h2>
+            <div>
+                <img class="iglesia-img" src="images/recomendaciones/fundidora.webp">
+                <h3>Parque Fundidora y Paseo Santa Lucia</h3>
+                <p class="justificado">Parque iconico con un gran espacio verde, seguro, y de acceso 100% gratuito.</p>
+                <a class="btn_white" href="https://www.google.com/maps/place/Fundidora+Park/@25.6786126,-100.28639,17z/data=!3m1!4b1!4m5!3m4!1s0x86629561ff265483:0x1b7bd40783c3a9a8!8m2!3d25.6786078!4d-100.2842013?hl=en">Mapa</a>
+            </div>
+            <div style="clear: both"></div>
+            <br>
+            <hr>
+            <div>
+                <img class="hotel-img" src="images/recomendaciones/Barrio.jpg">
+                <h3>Barrio Antiguo</h3>
+                <p class="justificado">Es una zona con arquitectura colonial donde durante el día hay artesanías, cafés y restaurantes. En la noche es un buen lugar para ir de bares o discotecas.</p>
+                <a class="btn_white" href="https://www.google.com/maps/dir//Barrio+Antiguo,+Centro,+64000+Monterrey,+Nuevo+Leon/@25.6670063,-100.3067257,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8662be2f0e3c88b7:0x5d3bff8365fe4920!2m2!1d-100.3067121!2d25.6671762">Mapa</a>
+            </div>
+            <div style="clear: both"></div>
+            <br>
+            <hr>
+            <div>
+                <img class="iglesia-img" src="images/recomendaciones/SanAgustin.jpg">
+                <h3>Plaza comercial San Agustin</h3>
+                <p class="justificado">Complejo comercial con atracciones, restaurantes y tiendas.</p>
+                <a class="btn_white" href="https://www.google.com/maps/place/Main+Entrance/@25.6484427,-100.3355429,15z/data=!4m6!3m5!1s0x8662be6cdc408a19:0xabac4aa0fc916b04!8m2!3d25.6484427!4d-100.3355429!16s%2Fg%2F1ptygg8tp">Mapa</a>
+            </div>
+            <div style="clear: both"></div>
+            <br>
+        </div>
+        <hr>
+        <div class="iglesia" style="background-color: #ADB9CA;">
+            <h2>Eco-turismo</h2>
+            <img class="hotel-img" src="images/recomendaciones/Matacanes.jpg">
+            <h3>Matacanes</h3>
+                <p class="justificado">Es un cañón en la Sierra de Santiago, donde se realiza rapel, clavados y otras actividades. Tiene una duración aproximada de 10 horas. Se recomienda ir en tour con un grupo grande.</p>
+                <a class="btn_white" href="https://teams.microsoft.com/l/meetup-join/19:meeting_YzRkZWNmZmItNWIxMi00NjhlLTk4ZjUtYTRjMWYxZWM0ZWZk@thread.v2/0?context=%7B%22Tid%22:%22096e524d-6929-4030-8cd3-8ab42de0887b%22,%22Oid%22:%226d1a88e7-85ba-4a41-ba54-ef1e0aa5cc3b%22%7D">Mapa</a>
+            <div style="clear: both"></div>
+            <br>
+            <hr>
+            <img class="iglesia-img" src="images/recomendaciones/Chipinque.jpg">
+            <h3>Chipinque</h3>
+            <p class="justificado">Parque ecológico para hacer hiking, picnic o bicleta de montaña. También se puede subir en carro.</p>
+            <a class="btn_white" href="https://www.google.com/maps/place/Chipinque+A.B.P.+Ecological+Park/@25.618744,-100.3624302,17z/data=!3m1!4b1!4m5!3m4!1s0x8662bc24126e47dd:0xee0d395933b0ac0a!8m2!3d25.618744!4d-100.3602415">Mapa</a>
+            <div style="clear: both"></div>
+            <br>
+            <hr>
+            <h3>Grutas de García</h3>
+            <img class="hotel-img" src="images/recomendaciones/Grutas.jpg">
+            <p class="justificado">Es un conjunto de cuevas con una profundiad de 105 metros y una longitud de 300 metros.</p>
+            <a class="btn_white" href="https://www.google.com/maps/place/Grutas+de+Garc%C3%ADa,+Lomas+Mederos,+64978+Monterrey,+N.L./data=!4m2!3m1!1s0x8662bf57383bf4f7:0xfb93d00838576193?sa=X&hl=en&ved=2ahUKEwiT0eaU9e38AhUMl2oFHUn0DAoQ8gF6BAgKEAI">Mapa</a>
+            <div style="clear: both"></div>
+
+        </div>
+        <br>
+    </div>
+<!--Te esperamos-->
+    <div class="rosa">
+        <h1>¡Te Esperamos!</h1>
+    </div>
+
+<script>
+<!--                Set the date we're counting down to-->
+    var countDownDate = new Date("Sept 23, 2023 19:00:00").getTime();
+
+    <!--                // Update the count down every 1 second-->
+    var x = setInterval(function() {
+
+    <!--                  // Get today's date and time-->
+      var now = new Date().getTime();
+
+    <!--                  // Find the distance between now and the count down date-->
+      var distance = countDownDate - now;
+
+    <!--                  // Time calculations for days, hours, minutes and seconds-->
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    <!--                  // Output the result in an element with id="demo"-->
+      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+
+    <!--                  // If the count down is over, write some text -->
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+
+<!--function changeImage() {-->
+<!--    if (document.getElementById("imgClickAndChange").src == "images/Galeria/DKH_0499.jpg")-->
+<!--        {document.getElementById("imgClickAndChange").src = "images/Galeria/DKH_0668.jpg";}-->
+<!--    else {-->
+<!--        if (document.getElementById("imgClickAndChange").src == "images/Galeria/DKH_0668.jpg")-->
+<!--        {document.getElementById("imgClickAndChange").src = "images/Galeria/DKH_0778.jpg";}-->
+<!--        else {-->
+<!--            if (document.getElementById("imgClickAndChange").src == "images/Galeria/DKH_0778.jpg")-->
+<!--            {document.getElementById("imgClickAndChange").src = "images/Galeria/DKH_0792.jpg";}-->
+<!--             else {-->
+<!--                if (document.getElementById("imgClickAndChange").src == "images/Galeria/DKH_0792.jpg")-->
+<!--                {document.getElementById("imgClickAndChange").src = "images/Galeria/DKH_0863.jpg";}-->
+<!--                else {-->
+<!--                    if (document.getElementById("imgClickAndChange").src == "images/Galeria/DKH_0863.jpg")-->
+<!--                    {document.getElementById("imgClickAndChange").src = "images/Galeria/DKH_0499.jpg";}-->
+<!--                }-->
+<!--            }-->
+<!--        }-->
+<!--    }-->
+<!--}-->
+
+function changeImage() {
+    if (document.getElementById("imgClickAndChange").src == " file:///images/Galeria/DKH_0499.jpg"){
+        document.getElementById("imgClickAndChange").src = " file:///images/Galeria/DKH_0668.jpg";
+    } else {
+        document.getElementById("imgClickAndChange").src = " file:///images/Galeria/DKH_0499.jpg";
+    }
+}
+</script>
+
+<!--<audio controls autoplay>-->
+<!--  <source src="PerfectSymphony.mp3" type="audio/mpeg">-->
+<!--Your browser does not support the audio element.-->
+<!--</audio>-->
+
+</body>
+</html>
