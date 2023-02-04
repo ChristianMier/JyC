@@ -25,7 +25,7 @@ body {margin: 0;
     }
 }
 
-.main-image {
+/* .main-image {
   background-image: url("/images/parismain.png");
   background-color: #cccccc;
   height: 550px;
@@ -33,7 +33,7 @@ body {margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
+} */
 
 .main-text {
     width: 100%;
