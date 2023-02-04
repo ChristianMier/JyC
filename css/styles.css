@@ -26,7 +26,7 @@ body {margin: 0;
 }
 
 .main-image {
-  background-image: url("/images/ParisMain.jpg");
+  background-image: url("/images/parismain.jpg");
   background-color: #cccccc;
   height: 550px;
   background-position: center;
