@@ -130,7 +130,7 @@ body {margin: 0;
     .iglesia {
         width:80mm;
     }
-}
+}*/
 
 @media only screen and (max-resolution: 200dpi) {
     .iglesia {
@@ -146,7 +146,7 @@ body {margin: 0;
     .br_horarios {
     display:none;
     }
-}*/
+}
 
 .iglesia-img {
     width: 80%;
