@@ -13,13 +13,14 @@ body {margin: 0;
     margin-left: 10px;
     margin-right: 10px;
     font-family: 'Sacramento', cursive;
+    paddingn-top: 70px;
     }
 
-@media only screen and (max-width: 3.6in) {
+/*@media only screen and (max-width: 3.6in) {
 .h1-main {
     margin-top:30px;
     }
-}
+}*/
 
 /*.main-image {
   background-image: url("/images/parismain.jpg");
@@ -31,7 +32,7 @@ body {margin: 0;
   position: relative;
 }*/
 
-.main-text {
+/* .main-text {
     text-align: center;
     width: 100%;
     position: absolute;
@@ -41,7 +42,7 @@ body {margin: 0;
     color: black;
     margin-top: 100px;
 
-}
+} */
 
 .clock {
     width: 100%;
