@@ -132,7 +132,7 @@ body {margin: 0;
     }
 }*/
 
-@media only screen and (max-resolution: 200dpi) {
+@media only screen and (max-height: 1000px) {
     .iglesia {
         margin-left: 50px;
         margin-right: 50px;
