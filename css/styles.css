@@ -137,6 +137,7 @@ body {margin: 0;
         margin-left: 50px;
         margin-right: 50px;
         display: inline-block;
+        width: 80%;
     }
 
     .hr_horarios{
