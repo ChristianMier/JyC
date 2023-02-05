@@ -128,7 +128,7 @@ body {margin: 0;
     border-color: gray;
 }
 
-@media only screen and (min-width: 100mm) {
+@media only screen and (min-width: 100mm) and (max-resolution: 200dpi) {
     .iglesia {
         width:80mm;
     }
@@ -136,8 +136,8 @@ body {margin: 0;
 
 @media only screen and (max-resolution: 200dpi) {
     .iglesia {
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
         display: inline-block;
 
     }
