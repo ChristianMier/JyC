@@ -1,0 +1,345 @@
+/*div resolucion compu: 120dpi
+resolucion celular 280dpi*/
+body {margin: 0;
+    text-align: center;
+    /*background-color: #d5bdbd;
+    /*font-family: 'Meeriweather', serif;*/
+    }
+
+/* este es para cuando es mayor al width especificado abajo*/
+.h1-main {
+    margin: auto;
+    font-size: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Sacramento', cursive;
+    }
+
+@media only screen and (max-width: 3.6in) {
+.h1-main {
+    margin-top:30px;
+    }
+}
+
+/*.main-image {
+  background-image: url("/images/parismain.jpg");
+  background-color: #cccccc;
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}*/
+
+.main-text {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    margin-top: 100px;
+
+}
+
+.clock {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #0000004f;
+    font-size: 100px;
+}
+
+.faltan{
+    /*background-image: url("/images/HIMYM.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    position: relative;
+    height: 375px;
+    margin: 5%;*/
+    }
+
+.flor-left{
+    float:left;
+    height: 200px;
+}
+
+.flor-right{
+    float:right;
+    height: 200px;
+    transform: rotateY(180deg);
+}
+
+/*@media only screen and (min-width: 5.05in) {
+    .faltan{
+    display: inline-block;
+    }
+
+    .flor-left{
+        height: 100px;
+        display: inline-block;
+    }
+
+    .flor-right{
+        height: 100px;
+        transform: rotateY(180deg);
+        display: inline-block;
+    }
+
+}*/
+
+.rosa{
+    background-color: #ADB9CA;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+
+.contenedor_horarios{
+    margin: auto;
+    text-align: center;
+}
+
+.iglesia{
+    overflow: hidden;
+    width: 80%;
+    background-color: white;
+    border-style: ridge;
+    margin: auto;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 10px;
+}
+
+.hr_horarios{
+    background-color: none;
+    border-style: dotted none none;
+    border-width: 15px;
+    height: 0px;
+    width: 150px;
+    implementation-specific: 10px;
+    border-color: gray;
+}
+
+/*@media only screen and (min-width: 100mm) and (max-resolution: 200dpi){
+    .iglesia {
+        width:80mm;
+    }
+}
+
+@media only screen and (max-resolution: 200dpi) {
+    .iglesia {
+        margin-left: 50px;
+        margin-right: 50px;
+        display: inline-block;
+    }
+
+    .hr_horarios{
+    display:none;
+    }
+
+    .br_horarios {
+    display:none;
+    }
+}*/
+
+.iglesia-img {
+    width: 80%;
+    }
+
+.hotel-img {
+    width: 80%
+    }
+
+.hr_invi{
+    border-style: none;
+}
+
+.btn {
+  background: #ADB9CA;
+  background-image: -webkit-linear-gradient(top, #ADB9CA, #98a4b5);
+  background-image: -moz-linear-gradient(top, #ADB9CA, #98a4b5);
+  background-image: -ms-linear-gradient(top, #ADB9CA, #98a4b5);
+  background-image: -o-linear-gradient(top, #ADB9CA, #98a4b5);
+  background-image: linear-gradient(to bottom, #ADB9CA, #98a4b5);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 45px;
+  padding: 7px 10px 7px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #6d7a82;
+  background-image: -webkit-linear-gradient(top, #6d7a82, #3e4042);
+  background-image: -moz-linear-gradient(top, #6d7a82, #3e4042);
+  background-image: -ms-linear-gradient(top, #6d7a82, #3e4042);
+  background-image: -o-linear-gradient(top, #6d7a82, #3e4042);
+  background-image: linear-gradient(to bottom, #6d7a82, #3e4042);
+  text-decoration: none;
+}
+
+ /*@media only screen and (min-width: 410mm) {
+    .iglesia-img {
+        width: 250px;
+        margin-left:15px;
+        margin-right:15px;
+        float: left;
+        }
+    .hotel-img {
+        width: 250px;
+        margin-left:15px;
+        margin-right:15px;
+        float: right;
+    }
+}*/
+
+.blanco {
+    padding: 20px;
+}
+/*---------------------asistencia-------------------*/
+.nombre {
+    font-size: 45px;
+    margin: auto;
+    width: 80%
+}
+.asistencia {
+    margin: auto;
+    width: 37%;
+    margin-right: 3%;
+    margin-left: 3%;
+    font-size: 45px;
+}
+
+/*---------------------Drop down menu-------------------*/
+.dropbtn {
+  background-color: #d5bdbd;
+  color: black;
+  padding: 5px;
+  border: solid;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*----------Drop down Image-------------------*/
+.dropdown-gal {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-gal {
+  display: none;
+  /*position: absolute;*/
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin: auto;
+}
+
+.dropdown-gal:hover .dropdown-content-gal {
+  display: block;
+}
+
+.img-grande{
+    width:70%
+}
+
+ @media only screen and (min-width: 450px) {
+    .img-grande{
+        max-width:350px;
+}
+}
+/*-------------------------Recomendaciones----------------------------*/
+.btn_white {
+  background: white;
+  background-image: -webkit-linear-gradient(top, white, #e4eaf2);
+  background-image: -moz-linear-gradient(top, white, #e4eaf2);
+  background-image: -ms-linear-gradient(top, white, #e4eaf2);
+  background-image: -o-linear-gradient(top, white, #e4eaf2);
+  background-image: linear-gradient(to bottom, white, #e4eaf2);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ADB9CA;
+  font-size: 45px;
+  padding: 7px 10px 7px 10px;
+  text-decoration: none;
+}
+
+.btn_white:hover {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #adadad);
+  background-image: -moz-linear-gradient(top, #ffffff, #adadad);
+  background-image: -ms-linear-gradient(top, #ffffff, #adadad);
+  background-image: -o-linear-gradient(top, #ffffff, #adadad);
+  background-image: linear-gradient(to bottom, #ffffff, #adadad);
+  text-decoration: none;
+}
+/*----------gnrl text-------------------*/
+hr {
+    background-color: none;
+    border-style: dotted none none;
+    border-width: 15px;
+    height: 0px;
+    width: 150px;
+    implementation-specific: 10px;
+    border-color: gray;
+}
+
+p {
+    line-height: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 40px;
+    }
+
+.justificado {
+    text-align: justify;
+}
+
+h1 {
+font-family: 'EB Garamond', serif;
+font-size: 100px;
+}
+
+h3 {
+font-size: 45px;
+}
+
+h2{
+font-size: 60px;
+}
