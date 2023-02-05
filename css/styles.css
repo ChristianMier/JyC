@@ -9,7 +9,7 @@ body {margin: 0;
 /* este es para cuando es mayor al width especificado abajo*/
 .h1-main {
     margin: auto;
-    font-size: 3em;
+    font-size: 20px;
     margin-left: 10px;
     margin-right: 10px;
     font-family: 'Sacramento', cursive;
