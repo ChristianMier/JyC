@@ -1,26 +1,58 @@
 /*div resolucion compu: 120dpi
 resolucion celular 280dpi*/
-body {margin: 0;
-    text-align: center;
-    /*background-color: #d5bdbd;
-    /*font-family: 'Meeriweather', serif;*/
-    }
 
-/* este es para cuando es mayor al width especificado abajo*/
+/*
+.menubtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.menu {
+  position: fixed;
+  display: inline-block;
+  z-index: 1;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+.menu-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu-content a:hover {background-color: #ddd;}
+
+.menu:hover .menu-content {display: block;}
+
+.menu:hover .menubtn {background-color: #3e8e41;}*/
+
+
 .h1-main {
     margin: auto;
     font-size: 150px;
     margin-left: 10px;
     margin-right: 10px;
     font-family: 'Sacramento', cursive;
-    paddingn-top: 70px;
+    padding-top: 100px;
     }
 
-/*@media only screen and (max-width: 3.6in) {
+@media only screen and (max-width: 3.6in) {
 .h1-main {
     margin-top:30px;
     }
-}*/
+}
 
 /*.main-image {
   background-image: url("/images/parismain.jpg");
@@ -32,7 +64,7 @@ body {margin: 0;
   position: relative;
 }*/
 
-/* .main-text {
+/*.main-text {
     text-align: center;
     width: 100%;
     position: absolute;
@@ -42,7 +74,7 @@ body {margin: 0;
     color: black;
     margin-top: 100px;
 
-} */
+}*/
 
 .clock {
     width: 100%;
@@ -66,54 +98,40 @@ body {margin: 0;
     margin: 5%;*/
     }
 
+
+
+.frase{
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 20px;
+}
+
+.falta{
+    font-size:40px;
+    margin-top: 10px;
+    margin-bottom: 10px;"
+}
+
+.tiempo{
+    font-size:60px;
+    margin-top: 10px;
+    margin-bottom: 10px;"
+}
+
 .flor-left{
     float:left;
-    height: 200px;
+    height: 250px;
+    transform: rotateZ(180deg);
 }
 
 .flor-right{
     float:right;
-    height: 200px;
-    transform: rotateY(180deg);
+    height: 250px;
+    transform: rotateZ(180deg) rotateY(180deg);
 }
-
-/*@media only screen and (min-width: 5.05in) {
-    .faltan{
-    display: inline-block;
-    }
-
-    .flor-left{
-        height: 100px;
-        display: inline-block;
-    }
-
-    .flor-right{
-        height: 100px;
-        transform: rotateY(180deg);
-        display: inline-block;
-    }
-
-}*/
-
-.rosa{
-    background-color: #ADB9CA;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    }
 
 .contenedor_horarios{
     margin: auto;
     text-align: center;
-}
-
-.iglesia{
-    overflow: hidden;
-    width: 80%;
-    background-color: white;
-    border-style: ridge;
-    margin: auto;
-    padding-bottom: 20px;
-    box-shadow: 2px 2px 10px;
 }
 
 .hr_horarios{
@@ -131,23 +149,6 @@ body {margin: 0;
         width:80mm;
     }
 }*/
-
-@media only screen and (max-height: 1000px) {
-    .iglesia {
-        margin-left: 50px;
-        margin-right: 50px;
-        display: inline-block;
-        width: 80mm;
-    }
-
-    .hr_horarios{
-    display:none;
-    }
-
-    .br_horarios {
-    display:none;
-    }
-}
 
 .iglesia-img {
     width: 80%;
@@ -189,24 +190,11 @@ body {margin: 0;
   text-decoration: none;
 }
 
- /*@media only screen and (min-width: 410mm) {
-    .iglesia-img {
-        width: 250px;
-        margin-left:15px;
-        margin-right:15px;
-        float: left;
-        }
-    .hotel-img {
-        width: 250px;
-        margin-left:15px;
-        margin-right:15px;
-        float: right;
-    }
-}*/
-
-.blanco {
-    padding: 20px;
+.etiqueta-img{
+    height: 150px
 }
+
+
 /*---------------------asistencia-------------------*/
 .nombre {
     font-size: 45px;
@@ -221,6 +209,9 @@ body {margin: 0;
     font-size: 45px;
 }
 
+.enviar{
+    font-size: 45px
+}
 /*---------------------Drop down menu-------------------*/
 .dropbtn {
   background-color: #d5bdbd;
@@ -276,13 +267,9 @@ body {margin: 0;
 }
 
 .img-grande{
-    width:70%
+    height: 1200px
 }
 
- @media only screen and (min-width: 450px) {
-    .img-grande{
-        max-width:350px;
-}
 }
 /*-------------------------Recomendaciones----------------------------*/
 .btn_white {
@@ -332,6 +319,11 @@ p {
 .justificado {
     text-align: justify;
 }
+
+.correo {
+    text-align: justify;
+    font-size: 30px;
+    }
 
 h1 {
 font-family: 'EB Garamond', serif;
