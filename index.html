@@ -10,6 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Libre+Franklin:ital,wght@1,100&family=Sacramento&display=swap" rel="stylesheet">
     <style>
+        .audio {
+            position: fixed;
+            z-index: 3;
+            top: 20px;
+            right: 20px;
+            width: 100px;
+        }
+        
         body {margin: 0;
             text-align: center;
             background-image: white;
@@ -52,6 +60,10 @@
         }
 
         @media only screen and (max-height: 1300px) {
+           .audio {
+                width: 50px;
+            }
+            
             .rosa{
                 box-shadow: 0px 2px 10px inset;
             }
@@ -159,11 +171,10 @@
     </style>
 </head>
 <body>
-<!--<audio id="player" src="sparkle.mp3" autoplay></audio>-->
-<!--<div class="audio">-->
-<!--    <button onclick="document.getElementById('player').play()">Play</button>-->
-<!--    <button onclick="document.getElementById('player').pause()">Pause</button>-->
-<!--</div>-->
+
+<audio id="player" src="sparkle.mp3"></audio>
+<img class="audio" alt="" src="images/play.png" id="playpause" onclick="play()"/>
+    
 <!--portada-->
     <div class="main-image">
       <div class="main-text">
@@ -430,13 +441,15 @@ console.log(document.getElementById("imgClickAndChange").src)
     }
 }
 
-<!--function changeImage() {-->
-<!--    if (document.getElementById("imgClickAndChange").src == " file:///images/Galeria/DKH_0499.jpg"){-->
-<!--        document.getElementById("imgClickAndChange").src = " file:///images/Galeria/DKH_0668.jpg";-->
-<!--    } else {-->
-<!--        document.getElementById("imgClickAndChange").src = " file:///images/Galeria/DKH_0499.jpg";-->
-<!--    }-->
-<!--}-->
+function play() {
+    if (document.getElementById("playpause").src == "http://localhost:63342/Wedding/images/play.png")
+        {document.getElementById("playpause").src = "images/pause.png"; document.getElementById('player').play();}
+    else {
+        if (document.getElementById("playpause").src == "http://localhost:63342/Wedding/images/pause.png")
+        {document.getElementById("playpause").src = "images/play.png"; document.getElementById('player').pause();}
+        }
+}
+    
 </script>
 
 </body>
