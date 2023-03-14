@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Christian & Julissa</title>
+    <title>Boda Christian & Julissa</title>
     <link rel="stylesheet" href="css/styles.css">
 <!--    la línea de abajo es para poner un icono de la página en el browser-->
     <link rel="icon" type="image/x-icon" href="images/umbrella_icon.png">
@@ -10,14 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Libre+Franklin:ital,wght@1,100&family=Sacramento&display=swap" rel="stylesheet">
     <style>
-        .audio {
-            position: fixed;
-            z-index: 3;
-            top: 20px;
-            right: 20px;
-            width: 100px;
-        }
-        
+
         body {margin: 0;
             text-align: center;
             background-image: white;
@@ -58,7 +51,7 @@
             box-shadow: 2px 2px 10px;
             background-image: url("images/blanco2.jpeg");
         }
-        
+
         .btn_white {
           background: white;
           background-image: -webkit-linear-gradient(top, white, #e4eaf2);
@@ -87,10 +80,10 @@
         }
 
         @media only screen and (max-height: 1300px) {
-           .audio {
+            .audio {
                 width: 50px;
             }
-            
+
             .rosa{
                 box-shadow: 0px 2px 10px inset;
             }
@@ -171,15 +164,23 @@
             }
 
             .nombre {
-                font-size: 20px;
+                font-size: 30px;
             }
 
             .asistencia {
-                font-size: 20px;
+                font-size: 30px;
+            }
+
+            .saludo{
+                font-size: 30px;
+            }
+
+            .code {
+                font-size: 30px;
             }
 
             .enviar{
-                font-size: 25px
+                font-size: 30px
             }
 
             hr {
@@ -198,10 +199,9 @@
     </style>
 </head>
 <body>
-
 <audio id="player" src="musica.mp3"></audio>
 <img class="audio" alt="" src="images/play.png" id="playpause" onclick="play()"/>
-    
+
 <!--portada-->
     <div class="main-image">
       <div class="main-text">
@@ -210,6 +210,23 @@
 <!--            <h1 class="h1-main"> Christian</h1>-->
       </div>
         <h1 class="clock">23/09/23 </h1>
+    </div>
+<!--bendicion-->
+    <div class="rosa">
+        <h1 style="">Con la bendición de nuestros padres</h1>
+        <div class="contenedor_horarios">
+            <div class="iglesia">
+                <h2>Guillermo Mier Saad</h2>
+                <h2>Sara Beatriz Escurra Ibáñez</h2>
+            </div>
+            <br class="br_horarios">
+            <div class="iglesia">
+                <h2>F. Arturo C. Morlesin Martínez</h2>
+                <h2>Yanet Tijerina Montes</h2>
+            </div>
+        <div style="clear: both"></div>
+        </div>
+        <h1>Celebremos nuestra unión matrimonial.</h1>
     </div>
 <!--cuanto falta-->
     <div style="background-color: white;">
@@ -243,7 +260,7 @@
             <a class="btn" href="https://goo.gl/maps/MJ1eUpZdL4bg7hTr5">Mapa</a>
         </div>
         <br class="br_horarios">
-         <hr class="hr_horarios">
+<!--         <hr class="hr_horarios">-->
         <br class="br_horarios">
         <div class="iglesia">
             <h2>Recepción</h2>
@@ -272,59 +289,71 @@
         <h1>Mesa de Regalos</h1>
         <div class="iglesia">
             <h2>Cuenta Bancaria México</h2>
-            <p>1234231421413</p>
-            <p>BBVA</p>
             <p>Christian Mier Escurra</p>
+            <p>Cuenta: 0179643494</p>
+            <p>CLABE: 012010001796434941</p>
+            <p>Banco: BBVA</p>
         </div>
         <br class="br_horarios">
-         <hr class="hr_horarios">
         <br class="br_horarios">
         <div class="iglesia">
-            <h2>Cuenta Bancaria Europa</h2>
-            <p>1234231421413</p>
-            <p>BBVA</p>
+            <h2>Cuenta Bancaria</h2>
+            <p>Julissa Montserrat Caballero-Morlesin Tijerina</p>
+            <p>Cuenta: 4152 3140 6655 3903</p>
+            <p>CLABE: 012 580 01502075967 2</p>
+            <p>Banco: BBVA</p>
+        </div>
+        <br>
+        <br>
+        <div class="iglesia">
+            <h2>Cuenta Bancaria Holanda</h2>
             <p>Christian Mier Escurra</p>
+            <p>Cuenta: NL54 ABNA 0880212314</p>
+            <p>Banco: ABN AMRO</p>
         </div>
         <br>
     </div>
 <!--GALERIA-->
     <div class="blanco">
         <h1>Galería</h1>
-        <p>Dar click en la imagen</p>
-<!--        <div class="dropdown-gal">-->
-<!--            <img src="images/Galeria/DKH_0499.jpg" alt="Paris1" width="10%" height="10%">-->
-<!--            <div class="dropdown-content-gal">-->
-<!--                <img class="img-grande" src="images/Galeria/DKH_0499.jpg" alt="Paris1">-->
-<!--            </div>-->
-<!--        </div>-->
+        <p>Presiona en la imagen</p>
         <img class="img-grande" alt="" src="images/Galeria/HIMYM.png" id="imgClickAndChange" onclick="changeImage()"/>
-
-
     </div>
 <!--ASISTENCIA-->
     <div class="rosa">
         <h1>Confirmación de Invitados</h1>
-        <form action="mailto:christianmier.e@gmail.com" method="post" enctype="text/plain">
-            <input class="nombre" type="text" name="yourName" placeholder="Nombre">
-            <br>
-            <br>
-            <select class="asistencia" name="asistencia" id="asistencia">
-                <option value="Asistencia">Asistencia</option>
-                <option value="Si">Sí Asistiré</option>
-                <option value="No">No Asistiré</option>
-            </select>
-
-             <select class="asistencia" name="acompanantes" id="acompanantes">
-                <option value="acompanantes">Acompañantes</option>
-                <option value="0">0 Acompañantes</option>
-                <option value="1">1 Acompañantes</option>
-             </select>
-            <br>
-            <br>
-            <textarea class="nombre" name="yourMessage" rows="5" placeholder="Mensaje para los novios"></textarea>
-            <br>
-            <br>
-            <input class="enviar" type="submit" name="" value="Enviar">
+        <form action="https://script.google.com/macros/s/AKfycbwZ30icZDpe35Y1t4b1U5tdfQJ75VPEC7uq1ZsSTFwpxTCl92j0CyfO1D2LtAOTFNF5/exec"
+              method="POST"
+                id="my-form">
+            <div class="enviarcodigo">
+                <p class="saludo">Para habilitar la confirmación inserta el código enviado por WhatsApp.</p>
+                <input id="code" class="code" type="text" name="Code" placeholder="Código" required>
+                <button class="enviar" type="button" id="Json" onclick="OpenJson()">enviar</button>
+            </div>
+            <input hidden name="Name" id="Name"><input hidden name="LastName" id="Last">
+            <p id="saludo" class="saludo"></p>
+            <div class="assistance" id="assistance">
+                <select onchange="AssistanceActivate()" class="asistencia" name="Asistance" id="asistencia" required>
+                    <option value="header" selected disabled>¿Asistiré?</option>
+                    <option value="Si">Sí</option>
+                    <option value="No">No</option>
+                </select>
+                <br>
+                <br>
+                 <select onchange="AcompanantesActivate()" class="asistencia" name="Companion" id="acompanantes">
+                     <option value="header" selected disabled>Invitaciones:</option>
+<!--                     <option hidden value="0">0</option>-->
+                     <option value="1">1</option>
+                 </select>
+                 <br>
+                <br>
+                <textarea id="mensajenovios" class="nombre" name="yourMessage" rows="5" placeholder="Mensaje para los novios"></textarea>
+                <br>
+                <br>
+<!--                style="display: none;"-->
+                <input id="enviar" class="enviar" type="submit" name="" value="Confirmar" disabled>
+                <p class="saludo" id="recibido"></p>
+            </div>
         </form>
     </div>
 <!--Recomandaciones-->
@@ -333,7 +362,7 @@
         <div class="iglesia" style="background-image: url(images/gris1.jpeg);">
             <h2>Hospedaje</h2>
             <p><b>HOTEL MS MILENIUM</b></p>
-            <p class="justificado">El hospedaje incluye descuento y transporte hotel-iglesia-hotel al reservar con el código:</p>
+            <p class="justificado">El hospedaje incluye descuento y transporte hotel-iglesia-hotel al recervar con el código:</p>
             <h2>ASDLKN</h2>
             <p>- Habitación Superior:   $1,969.5</p>
             <p>- Habitación De Luxe:  $2,267.0</p>
@@ -343,19 +372,19 @@
             <p class="correo"><b>Correo:</b> Alejandra.galeana@hotelesmilenium.com</p>
         </div>
         <br>
-        <hr>
+<!--        <hr>-->
         <br>
         <div class="iglesia" style="background-image: url(images/gris1.jpeg);">
             <h2>Recreaciones</h2>
             <div>
                 <img class="iglesia-img" src="images/recomendaciones/fundidora.webp">
                 <p><b>PARQUE FUNDIDORA Y PASEO STA LUCÍA </b></p>
-                <p class="justificado">Parque icónico con un gran espacio verde, seguro, y de acceso 100% gratuito.</p>
+                <p class="justificado">Parque iconico con un gran espacio verde, seguro, y de acceso 100% gratuito.</p>
                 <a class="btn_white" href="https://www.google.com/maps/place/Fundidora+Park/@25.6786126,-100.28639,17z/data=!3m1!4b1!4m5!3m4!1s0x86629561ff265483:0x1b7bd40783c3a9a8!8m2!3d25.6786078!4d-100.2842013?hl=en">Mapa</a>
             </div>
             <div style="clear: both"></div>
             <br>
-            <hr>
+<!--            <hr>-->
             <br>
             <div>
                 <img class="hotel-img" src="images/recomendaciones/Barrio.jpg">
@@ -365,7 +394,7 @@
             </div>
             <div style="clear: both"></div>
             <br>
-            <hr>
+<!--            <hr>-->
             <br>
             <div>
                 <img class="iglesia-img" src="images/recomendaciones/SanAgustin.jpg">
@@ -377,7 +406,7 @@
             <br>
         </div>
         <br class="br_horarios">
-         <hr class="hr_horarios">
+<!--         <hr class="hr_horarios">-->
         <br class="br_horarios">
         <div class="iglesia" style="background-image: url(images/gris1.jpeg);">
             <h2>Eco-turismo</h2>
@@ -387,7 +416,7 @@
                 <a class="btn_white" href="https://www.google.com/maps/place/Area+de+Matacanes/@25.3161535,-100.2138062,12.05z/data=!4m17!1m10!3m9!1s0x867d337f0d3849e9:0xb306221ccd320072!2sAldea+Matacanes!5m2!4m1!1i2!8m2!3d25.2651647!4d-100.1668708!16s%2Fg%2F11c5xwnrbx!3m5!1s0x867d33fd4772c549:0x35051a4b23d29ede!8m2!3d25.2639106!4d-100.1682959!16s%2Fg%2F11gmx5xpmf">Mapa</a>
             <div style="clear: both"></div>
             <br>
-            <hr>
+<!--            <hr>-->
             <br>
             <img class="iglesia-img" src="images/recomendaciones/Chipinque.jpg">
             <P><B>CHIPINQUE</B></P>
@@ -395,10 +424,10 @@
             <a class="btn_white" href="https://www.google.com/maps/place/Chipinque+A.B.P.+Ecological+Park/@25.618744,-100.3624302,17z/data=!3m1!4b1!4m5!3m4!1s0x8662bc24126e47dd:0xee0d395933b0ac0a!8m2!3d25.618744!4d-100.3602415">Mapa</a>
             <div style="clear: both"></div>
             <br>
-            <hr>
+<!--            <hr>-->
             <br>
-            <img class="hotel-img" src="images/recomendaciones/Grutas.jpg">
             <P><B>GRUTAS DE GARCÍA</B></P>
+            <img class="hotel-img" src="images/recomendaciones/Grutas.jpg">
             <p class="justificado">Es un conjunto de cuevas con una profundiad de 105 metros y una longitud de 300 metros.</p>
             <a class="btn_white" href="https://www.google.com/maps/place/Grutas+de+Garc%C3%ADa,+Lomas+Mederos,+64978+Monterrey,+N.L./data=!4m2!3m1!1s0x8662bf57383bf4f7:0xfb93d00838576193?sa=X&hl=en&ved=2ahUKEwiT0eaU9e38AhUMl2oFHUn0DAoQ8gF6BAgKEAI">Mapa</a>
             <div style="clear: both"></div>
@@ -412,6 +441,7 @@
         <h1>¡Te Esperamos!</h1>
     </div>
 
+<script src="script.js"></script>
 <script>
 <!--                Set the date we're counting down to-->
     var countDownDate = new Date("Sept 23, 2023 19:00:00").getTime();
@@ -442,32 +472,8 @@
       }
     }, 1000);
 
-function changeImage() {
-console.log(document.getElementById("imgClickAndChange").src)
-    if (document.getElementById("imgClickAndChange").src == "https://christianmier.github.io/JyC/images/Galeria/HIMYM.png")
-        {document.getElementById("imgClickAndChange").src = "images/Galeria/DKH_0499.png";}
-    else {
-        if (document.getElementById("imgClickAndChange").src == "https://christianmier.github.io/JyC/images/Galeria/DKH_0499.png")
-            {document.getElementById("imgClickAndChange").src = "images/Galeria/DKH_0668.png";}
-        else {
-            if (document.getElementById("imgClickAndChange").src == "https://christianmier.github.io/JyC/images/Galeria/DKH_0668.png")
-            {document.getElementById("imgClickAndChange").src = "images/Galeria/DKH_0778.png";}
-            else {
-                if (document.getElementById("imgClickAndChange").src == "https://christianmier.github.io/JyC/images/Galeria/DKH_0778.png")
-                {document.getElementById("imgClickAndChange").src = "images/Galeria/DKH_0792.png";}
-                 else {
-                    if (document.getElementById("imgClickAndChange").src == "https://christianmier.github.io/JyC/images/Galeria/DKH_0792.png")
-                    {document.getElementById("imgClickAndChange").src = "images/Galeria/DKH_0863.png";}
-                    else {
-                        if (document.getElementById("imgClickAndChange").src == "https://christianmier.github.io/JyC/images/Galeria/DKH_0863.png")
-                        {document.getElementById("imgClickAndChange").src = "images/Galeria/HIMYM.png";}
-                    }
-                }
-            }
-        }
-    }
-}
-
+<!--https://christianmier.github.io/JyC-->
+<!--http://localhost:63342/Wedding-->
 function play() {
     if (document.getElementById("playpause").src == "https://christianmier.github.io/JyC/images/play.png")
         {document.getElementById("playpause").src = "images/pause.png"; document.getElementById('player').play();}
@@ -476,7 +482,37 @@ function play() {
         {document.getElementById("playpause").src = "images/play.png"; document.getElementById('player').pause();}
         }
 }
-    
+
+function changeImage() {
+console.log(document.getElementById("imgClickAndChange").src)
+    if (document.getElementById("imgClickAndChange").src == "https://christianmier.github.io/JyC/images/Galeria/HIMYM.png")
+        {document.getElementById("imgClickAndChange").src = "https://christianmier.github.io/JyC/images/Galeria/parismain1.png";}
+    else {
+        if (document.getElementById("imgClickAndChange").src == "https://christianmier.github.io/JyC/images/Galeria/parismain1.png")
+            {document.getElementById("imgClickAndChange").src = "https://christianmier.github.io/JyC/images/Galeria/DKH_0499.png";}
+        else{
+            if (document.getElementById("imgClickAndChange").src == "https://christianmier.github.io/JyC/images/Galeria/DKH_0499.png")
+                {document.getElementById("imgClickAndChange").src = "https://christianmier.github.io/JyC/images/Galeria/DKH_0668.png";}
+            else {
+                if (document.getElementById("imgClickAndChange").src == "https://christianmier.github.io/JyC/images/Galeria/DKH_0668.png")
+                {document.getElementById("imgClickAndChange").src = "https://christianmier.github.io/JyC/images/Galeria/DKH_0778.png";}
+                else {
+                    if (document.getElementById("imgClickAndChange").src == "https://christianmier.github.io/JyC/images/Galeria/DKH_0778.png")
+                    {document.getElementById("imgClickAndChange").src = "https://christianmier.github.io/JyC/images/Galeria/DKH_0792.png";}
+                     else {
+                        if (document.getElementById("imgClickAndChange").src == "https://christianmier.github.io/JyC/images/Galeria/DKH_0792.png")
+                        {document.getElementById("imgClickAndChange").src = "https://christianmier.github.io/JyC/images/Galeria/DKH_0863.png";}
+                        else {
+                            if (document.getElementById("imgClickAndChange").src == "https://christianmier.github.io/JyC/images/Galeria/DKH_0863.png")
+                            {document.getElementById("imgClickAndChange").src = "https://christianmier.github.io/JyC/images/Galeria/HIMYM.png";}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 </script>
 
 </body>
