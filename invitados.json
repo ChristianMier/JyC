@@ -1,0 +1,20 @@
+[
+    {
+        "codigo": "af80",
+        "nombre": "Memo",
+        "apeido": "Mier Escurra",
+        "acompanantes": 1
+    },
+    {
+        "codigo": "we38",
+        "nombre": "Johi Pickles Mckinsey de Kensington III",
+        "apeido": "Caballero Morlesin Tijerina",
+        "acompanantes": 2
+    },
+    {
+        "codigo": "4ffe",
+        "nombre": "Mami",
+        "apeido": "Tijerina Montes",
+        "acompanantes": 5
+    }
+]
