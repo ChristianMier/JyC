@@ -1,43 +1,10 @@
-/*div resolucion compu: 120dpi
-resolucion celular 280dpi*/
-
-/*
-.menubtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+.audio {
+    position: fixed;
+    z-index: 3;
+    top: 20px;
+    right: 20px;
+    width: 100px;
 }
-
-.menu {
-  position: fixed;
-  display: inline-block;
-  z-index: 1;
-}
-
-.menu-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 2;
-}
-
-.menu-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.menu-content a:hover {background-color: #ddd;}
-
-.menu:hover .menu-content {display: block;}
-
-.menu:hover .menubtn {background-color: #3e8e41;}*/
-
 
 .h1-main {
     margin: auto;
@@ -46,6 +13,8 @@ resolucion celular 280dpi*/
     margin-right: 10px;
     font-family: 'Sacramento', cursive;
     padding-top: 100px;
+    /*color: white;
+    text-shadow: 10px 10px black;*/
     }
 
 @media only screen and (max-width: 3.6in) {
@@ -53,28 +22,6 @@ resolucion celular 280dpi*/
     margin-top:30px;
     }
 }
-
-/*.main-image {
-  background-image: url("/images/parismain.jpg");
-  background-color: #cccccc;
-  height: 550px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}*/
-
-/*.main-text {
-    text-align: center;
-    width: 100%;
-    position: absolute;
-    top: 12%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    margin-top: 100px;
-
-}*/
 
 .clock {
     width: 100%;
@@ -87,16 +34,6 @@ resolucion celular 280dpi*/
     background-color: #0000004f;
     font-size: 100px;
 }
-
-.faltan{
-    /*background-image: url("/images/HIMYM.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 200px;
-    position: relative;
-    height: 375px;
-    margin: 5%;*/
-    }
 
 
 
@@ -196,22 +133,63 @@ resolucion celular 280dpi*/
 
 
 /*---------------------asistencia-------------------*/
-.nombre {
-    font-size: 45px;
-    margin: auto;
-    width: 80%
+.enviarcode{
+    margin:auto;
+    width: 80%;
+    }
+
+.code {
+    width: 20%;
+    font-size: 55px;
 }
+
+.nombre {
+    font-size: 55px;
+    margin: auto;
+    width: 80%;
+}
+
+.assistance{
+    display: none;
+}
+
 .asistencia {
+    margin: auto;
+    width: 80%;
+    margin-right: 1%;
+    margin-left: 1%;
+    font-size: 55px;
+    text-align: center;
+    /*display: inline-block;*/
+}
+
+/*.acompanantes {
+display: inline-block;
     margin: auto;
     width: 37%;
     margin-right: 3%;
     margin-left: 3%;
     font-size: 45px;
+    visibility: hidden;
+    display: none;
+}*/
+
+#acompanantes{
+visibility: hidden;
 }
 
 .enviar{
-    font-size: 45px
+    font-size: 55px;
+    box-shadow: 2px 2px 10px;
 }
+
+.saludo{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+   /*- width: 80%;*/
+    }
 /*---------------------Drop down menu-------------------*/
 .dropbtn {
   background-color: #d5bdbd;
@@ -322,7 +300,7 @@ p {
 
 .correo {
     text-align: justify;
-    font-size: 25px;
+    font-size: 30px;
     }
 
 h1 {
