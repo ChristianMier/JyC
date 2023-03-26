@@ -13,8 +13,9 @@
     margin-right: 10px;
     font-family: 'Sacramento', cursive;
     padding-top: 100px;
-    /*color: white;
-    text-shadow: 10px 10px black;*/
+    line-height: 1.2em;
+    text-shadow: 0.08em 0.08em 0.08em rgba(0,0,0,0.4);
+    font-weight: 200;
     }
 
 @media only screen and (max-width: 3.6in) {
@@ -33,6 +34,8 @@
     color: white;
     background-color: #0000004f;
     font-size: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 
@@ -305,7 +308,11 @@ p {
 
 h1 {
 font-family: 'EB Garamond', serif;
+line-height: 1.2em;
+font-weight: 200;
 font-size: 100px;
+padding-left: 35px;
+padding-right: 35px;
 }
 
 h3 {
