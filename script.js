@@ -5,7 +5,7 @@ window.addEventListener("load", function() {
     e.preventDefault();
     const data = new FormData(form);
     const action = e.target.action;
-    document.getElementById("recibido").innerHTML = "!Un momento, se está cargando tu confirmación¡"
+    document.getElementById("recibido").innerHTML = "¡Un momento, se está cargando tu confirmación!"
     document.getElementById('enviar').disabled = true;
     document.getElementById('code').disabled = true;
     document.getElementById('Json').disabled = true;
@@ -17,7 +17,7 @@ window.addEventListener("load", function() {
       body: data,
     })
     .then(() => {
-          document.getElementById("recibido").innerHTML = "!Gracias, hemos recibido tu confirmación¡"
+          document.getElementById("recibido").innerHTML = "¡Gracias, hemos recibido tu confirmación!"
           document.getElementById('enviar').disabled = false;
           document.getElementById('code').disabled = false;
           document.getElementById('Json').disabled = false;
@@ -52,7 +52,6 @@ function readJason(json){
         document.getElementById("saludo").innerHTML = "¡Hola " + json[index].nombre + ", por favor confirma tu asistencia!"//aqui va el id del texto que se va a poner
         document.getElementById('assistance').style.display = 'block';
         document.getElementById("Name").value = json[index].nombre;
-        document.getElementById("Last").value = json[index].apeido;
     //    crear la lista plegable:
         var min = 2;
         window.max = json[index].acompanantes;
