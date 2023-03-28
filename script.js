@@ -41,7 +41,9 @@ function OpenJson(){
 function readJason(json){
     document.getElementById("recibido").innerHTML = ""
     var index = -1;
-    var val = document.getElementById("code").value //aqui va el id del input (codigo)
+    CODE = document.getElementById("code").value
+    document.getElementById("code").value = CODE.toLowerCase()
+    var val = CODE.toLowerCase()
     var filteredObj = json.find(function(item, i){
       if(item.codigo === val){
         index = i;
