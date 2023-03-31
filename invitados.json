@@ -122,7 +122,7 @@
     {
         "codigo": "nj1n",
         "nombre": "Tio Alonso y familia",
-        "acompanantes": 5
+        "acompanantes": 6
     },
     {
         "codigo": "yefl",
@@ -556,8 +556,8 @@
     },
     {
         "codigo": "ah4c",
-        "nombre": "Familia Dubroq",
-        "acompanantes": 6
+        "nombre": "Familia Dubroq Caballero-Morlesin",
+        "acompanantes": 2
     },
     {
         "codigo": "ky2s",
@@ -607,6 +607,21 @@
     {
         "codigo": "jldd",
         "nombre": "LETICIA",
+        "acompanantes": 1
+    },
+    {
+        "codigo": "19zu",
+        "nombre": "Lorenzo y Amille",
+        "acompanantes": 2
+    },
+    {
+        "codigo": "j5va",
+        "nombre": "Leonardo",
+        "acompanantes": 1
+    },
+    {
+        "codigo": "i22b",
+        "nombre": "Lazaro",
         "acompanantes": 1
     }
 ]
