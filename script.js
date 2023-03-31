@@ -51,7 +51,7 @@ function readJason(json){
       }
     });
     if(index>-1){
-        document.getElementById("saludo").innerHTML = "¡Hola " + json[index].nombre + ", por favor confirma tu asistencia!"//aqui va el id del texto que se va a poner
+        document.getElementById("saludo").innerHTML = "¡Hola " + json[index].nombre + ", favor de confirmar su asistencia!"//aqui va el id del texto que se va a poner
         document.getElementById('assistance').style.display = 'block';
         document.getElementById("Name").value = json[index].nombre;
     //    crear la lista plegable:
