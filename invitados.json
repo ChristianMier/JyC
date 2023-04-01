@@ -623,5 +623,10 @@
         "codigo": "i22b",
         "nombre": "Lazaro",
         "acompanantes": 1
+    },
+    {
+        "codigo": "xlgp",
+        "nombre": "Ainee",
+        "acompanantes": 2
     }
 ]
