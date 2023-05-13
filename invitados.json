@@ -227,7 +227,7 @@
     {
         "codigo": "k3qo",
         "nombre": "primo",
-        "acompanantes": 2
+        "acompanantes": 1
     },
     {
         "codigo": "udvf",
@@ -597,6 +597,21 @@
     {
         "codigo": "xlgp",
         "nombre": "Ainee",
+        "acompanantes": 2
+    },
+    {
+        "codigo": "9nld",
+        "nombre": "Dr. Alejandro",
+        "acompanantes": 2
+    },
+    {
+        "codigo": "b4sq",
+        "nombre": "Dr. Alfredo",
+        "acompanantes": 2
+    },
+    {
+        "codigo": "4k6t",
+        "nombre": "Dr. Santiago",
         "acompanantes": 2
     }
 ]
