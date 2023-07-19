@@ -643,5 +643,20 @@
         "codigo": "notw",
         "nombre": "Dr. Miguel Trujillo",
         "acompanantes": 1
+    },
+    {
+        "codigo": "xr4n",
+        "nombre": "T\u00edo Tito",
+        "acompanantes": 2
+    },
+    {
+        "codigo": "r4cn",
+        "nombre": "Cesar",
+        "acompanantes": 2
+    },
+    {
+        "codigo": "xdsa",
+        "nombre": "Sra Alma Rosa",
+        "acompanantes": 2
     }
 ]
