@@ -83,7 +83,7 @@ function readJason(json){
         }
     }
     else{
-        document.getElementById("saludo").innerHTML = "!Código incorrecto¡"
+        document.getElementById("saludo").innerHTML = "¡Código incorrecto!"
     }
 }
 
