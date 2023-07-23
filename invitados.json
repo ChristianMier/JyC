@@ -171,7 +171,7 @@
     },
     {
         "codigo": "3h22",
-        "nombre": "Jasso",
+        "nombre": "Tati",
         "acompanantes": 2
     },
     {
@@ -657,6 +657,11 @@
     {
         "codigo": "xdsa",
         "nombre": "Sra Alma Rosa",
+        "acompanantes": 2
+    },
+    {
+        "codigo": "vh0l",
+        "nombre": "Sr. Feregrino",
         "acompanantes": 2
     }
 ]
