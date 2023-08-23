@@ -693,5 +693,15 @@
         "codigo": "4sgo",
         "nombre": "Sr. Daniel Vargas",
         "acompanantes": 2
+    },
+    {
+        "codigo": "izsc",
+        "nombre": "Chema",
+        "acompanantes": 2
+    },
+    {
+        "codigo": "ou62",
+        "nombre": "Olga",
+        "acompanantes": 1
     }
 ]
