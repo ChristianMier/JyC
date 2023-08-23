@@ -688,5 +688,10 @@
         "codigo": "3io7",
         "nombre": "Edwin",
         "acompanantes": 2
+    },
+    {
+        "codigo": "4sgo",
+        "nombre": "Sr. Daniel Vargas",
+        "acompanantes": 2
     }
 ]
