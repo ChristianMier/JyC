@@ -703,5 +703,10 @@
         "codigo": "ou62",
         "nombre": "Olga",
         "acompanantes": 1
+    },
+    {
+        "codigo": "ouik",
+        "nombre": "Hector",
+        "acompanantes": 2
     }
 ]
