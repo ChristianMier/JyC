@@ -708,5 +708,25 @@
         "codigo": "ouik",
         "nombre": "Hector",
         "acompanantes": 2
+    },
+    {
+        "codigo": "2b8c",
+        "nombre": "T\u00edo Manuel",
+        "acompanantes": 2
+    },
+    {
+        "codigo": "2j1a",
+        "nombre": "T\u00eda Carmen",
+        "acompanantes": 1
+    },
+    {
+        "codigo": "q1u6",
+        "nombre": "T\u00eda Marta",
+        "acompanantes": 2
+    },
+    {
+        "codigo": "b5qz",
+        "nombre": "T\u00edo Arturo",
+        "acompanantes": 2
     }
 ]
