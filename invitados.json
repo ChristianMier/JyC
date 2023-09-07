@@ -743,5 +743,10 @@
         "codigo": "ptmw",
         "nombre": "Dr. Basilio",
         "acompanantes": 2
+    },
+    {
+        "codigo": "cna4",
+        "nombre": "Beto",
+        "acompanantes": 2
     }
 ]
